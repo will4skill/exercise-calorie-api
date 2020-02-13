@@ -12,5 +12,7 @@ app.use(express.json());
 app.use('/api/exercise-calories', exercise_calories);
 
 
-const port = 3000;
+const port = 4000;
 const server = app.listen(port, () => console.log(`Listening on port ${port}`));
+
+module.exports = app;
